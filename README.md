@@ -10,7 +10,6 @@ Welcome to my personal portfolio project! 🚀 This website showcases my work, s
 
 ## ✨ Features
 
-- 🌍 **Dynamic Content**: Powered by [DatoCMS](https://www.datocms.com) for easy content management.
 - ⚡ **Fast & Responsive**: Built with modern web technologies for seamless performance.
 - 🎨 **Customizable**: Modular and easy to adapt to your own needs.
 - 📈 **Professional Yet Personal**: Highlights projects, skills, and achievements.
