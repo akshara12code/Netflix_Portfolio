@@ -37,7 +37,7 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.223);
   text-decoration: none;
   color: inherit;
   display: flex;
@@ -64,7 +64,7 @@
 
 .certification-icon {
   font-size: 2rem;
-  color: #4a90e2;
+  color: #e90909;
   margin-bottom: 0.5rem;
 }
 
@@ -101,4 +101,17 @@
 @keyframes cardFadeIn {
   from { opacity: 0; transform: translateY(50px) rotate(-2deg) scale(0.95); }
   to { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); }
+}
+
+
+h2{
+  font-size: 2.5rem;
+  color:red;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.4rem;
+  color: #aaa;
+  margin-bottom: 1.5rem;
 }

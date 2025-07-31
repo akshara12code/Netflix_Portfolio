@@ -4,6 +4,7 @@
   color: #e6e6e6;
   text-align: center;
   animation: fadeIn 0.8s ease-in-out;
+  
 }
 
 .linkedin-badge-custom {
@@ -18,14 +19,25 @@
   color: #e6e6e6;
   max-width: 350px;
   margin: 0 auto;
-}
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+
+}
+.linkedin-badge-custom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(210, 12, 12, 0.5);
+}
 .badge-avatar {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
+  width: 150px;
+  height: 220px;
+
   margin-right: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 .badge-content {
@@ -100,6 +112,10 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
+  -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-item:hover {

@@ -4,24 +4,24 @@ import { FaMedium, FaDev } from 'react-icons/fa';
 
 const blogs = [
   {
-    title: "Make Your Rails Console Look Better",
+    title: "WOMEN IN TECH",
     platform: "Medium",
     icon: <FaMedium />,
-    link: "https://medium.com/@chintusamala96/make-your-rails-console-look-better-510988d40566",
+    link: "https://drive.google.com/file/d/1LOoY0Ro3F_mhC2JMCoUJwhY4DLZaVjoL/view?usp=sharing",
     description: "Learn tips to customize your Rails console for a better experience.",
   },
   {
-    title: "Docker Fundas - My Version",
+    title: "THE DIGITAL WORLD",
     platform: "Medium",
     icon: <FaMedium />,
-    link: "https://medium.com/@chintusamala96/docker-fundas-my-version-7b9262bd90d4",
+    link: "https://drive.google.com/file/d/1C9vVnXLZFXaNlS6TxwdPR9HTdT1DZo5I/view?usp=sharing",
     description: "An introductory guide to Docker fundamentals from my perspective.",
   },
   {
-    title: "Grape Gem in Ruby on Rails: Handling User Model and API Endpoint",
+    title: "UNLOCKING AI: ADVANCING HUMANITY",
     platform: "Dev.to",
     icon: <FaDev />,
-    link: "https://dev.to/samalasumanth0262/grape-gem-in-ruby-on-rails-handling-user-model-and-api-endpoint-g6d",
+    link: "https://drive.google.com/file/d/1yCINtnJeEjcC7fTgnQwRd1rjmDFkNnH0/view?usp=sharing",
     description: "A guide to using the Grape gem for API development in Ruby on Rails.",
   },
 ];
@@ -30,7 +30,7 @@ const Blogs: React.FC = () => {
   return (
     <div className="blogs-container">
       <h2 className="blogs-title">✍️ My Blog Posts</h2>
-      <p className="blogs-intro">A collection of my thoughts and tutorials on software development.</p>
+      <p className="blogs-intro">A collection of my thoughts and tutorials on rising technologies.</p>
       <div className="blogs-grid">
         {blogs.map((blog, index) => (
           <a href={blog.link} key={index} target="_blank" rel="noopener noreferrer" className="blog-card" style={{ '--delay': `${index * 0.2}s` } as React.CSSProperties}>

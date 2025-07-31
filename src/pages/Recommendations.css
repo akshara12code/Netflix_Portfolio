@@ -6,6 +6,7 @@
 
 /* Styling for the recommendation card */
 .recommendation-card {
+  margin-top: 90px;;
   max-width: 800px;
   width: 100%; /* Responsive width to ensure it fits smaller screens */
   background-color: #1e1e1e; /* Slightly lighter for contrast */
@@ -54,7 +55,7 @@
 
 .recommendation-body {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .recommendation-body p {
@@ -65,8 +66,21 @@
   color: #e50914; /* Highlighted text in Netflix red */
 }
 
-.recommendation-body p:first-of-type {
+
+.recommendation-body p {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.recommendation-body p:last-of-type {
+  font-style: italic;
+  color: #ccc; /* Lighter color for the last paragraph */
+  font-size: 1.1rem;
+}
+
+.ya1 {
+  font-size: 0.5rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
 }

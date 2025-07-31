@@ -1,14 +1,14 @@
 import React from 'react';
 import './Music.css';
-import albumCover1 from '../images/Hotelcalifornia.jpg'; // Hotel California by The Eagles
-import albumCover2 from '../images/ac-dc.jpg'; // Back in Black by AC/DC
-import albumCover3 from '../images/guns-n-roses.webp'; // Appetite for Destruction by Guns N' Roses
+import albumCover1 from '../images/LDR.png'; // Hotel California by The Eagles
+import albumCover2 from '../images/BTS.jpg'; // Back in Black by AC/DC
+import albumCover3 from '../images/JN.jpg'; // Appetite for Destruction by Guns N' Roses
 
-const favoriteGenres = ["Rock", "Classic Rock", "Hard Rock", "Blues", "Alternative"];
+const favoriteGenres = ["Bollywood", "Classic Rock", "K-Pop", "Hollywood", "Pop", "Hip-Hop"];
 const favoriteAlbums = [
-  { title: "Hotel California", artist: "The Eagles", imgSrc: albumCover1 },
-  { title: "Back in Black", artist: "AC/DC", imgSrc: albumCover2 },
-  { title: "Appetite for Destruction", artist: "Guns N' Roses", imgSrc: albumCover3 },
+  { title: "ULTRAVIOLENCE", artist: "Lana Del Rey", imgSrc: albumCover1 },
+  { title: "Love Yourself", artist: "BTS", imgSrc: albumCover2 },
+  { title: "RUBY", artist: "JENNIE", imgSrc: albumCover3 },
 ];
 
 const Music: React.FC = () => {

@@ -1,19 +1,19 @@
 .music-page {
   text-align: center;
   padding: 100px 20px;
-  color: #fff;
+  color: #e81414;
   font-family: Arial, sans-serif;
 }
 
 .music-title {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #f5f5f5;
+  color: #cf0f0f;
 }
 
 .quote {
   font-style: italic;
-  color: #ccc;
+  color: #df2828;
   margin: 20px 0 30px;
   font-size: 1.2rem;
   animation: fadeIn 2s ease-in-out;
@@ -31,7 +31,7 @@
 }
 
 .genre-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.038);
   padding: 15px 25px;
   border-radius: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -41,11 +41,11 @@
 
 .genre-card:hover {
   transform: scale(1.1);
-  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.521);
 }
 
 .album-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.019);
   border-radius: 15px;
   overflow: hidden;
   width: 200px;

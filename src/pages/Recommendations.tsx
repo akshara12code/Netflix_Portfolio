@@ -1,6 +1,6 @@
 import React from 'react';
 import './Recommendations.css';
-import chrisProfilePic from '../images/chris.jpg'; // Adjust the path based on your directory structure
+import chrisProfilePic from '../images/sir image.jpg'; // Adjust the path based on your directory structure
 
 const Recommendations: React.FC = () => {
   return (
@@ -9,16 +9,31 @@ const Recommendations: React.FC = () => {
         <div className="recommendation-header">
           <img src={chrisProfilePic} alt="Chris Smith" className="profile-pic" />
           <div>
-            <h3>Chris Smith</h3>
-            <p>Head of Kajima Community</p>
-            <p className="date">October 24, 2024</p>
+            <h3>Dr Preetam Suman</h3>
+            <p>Division Head - Network Computing (CSE)</p>
+            <p className="date">July 28, 2025</p>
           </div>
         </div>
         <div className="recommendation-body">
-          <p>✨ "It is with great pleasure that I write this reference for Sumanth, who worked for us as a software developer at Kajima from June 2023. Unfortunately, due to a change in the company’s structure, we have made the difficult decision to make their position redundant. This in no way reflects on their performance, which was consistently excellent.</p>
-          <p>During their time with us, Sumanth demonstrated strong technical expertise, a passion for problem-solving, a willingness to learn, and a collaborative spirit that greatly contributed to our team’s success. They played a pivotal role in developing and maintaining key features of our software <strong>BookingsPlus</strong> and <strong>NHS Open Space</strong>, consistently delivering high-quality code while meeting project deadlines. Their ability to quickly adapt to new technologies and their proactive approach to finding innovative solutions set them apart."</p>
-          <p>💼 "Sumanth also showed exceptional teamwork and communication skills, effectively collaborating with cross-functional teams, including product managers, designers, and QA. Their professionalism, positive attitude, and dedication to their work made them an asset to the team."</p>
-          <p>🌟 "I have no doubt that Sumanth will be a valuable addition to any organization, and I wholeheartedly recommend them for any future opportunities."</p>
+          <p> "I am delighted to recommend Akshara Srivastava (23BAI10585), currently a student of the
+Computer Science and Engineering with specialization in Artificial Intelligence and Machine
+Learning at Vellore Institute of Technology, Bhopal."</p>
+          <p className="ya1">As her Mentor throughout the entire
+second year and part of the third year, I have closely observed her academic progress,
+commitment, and personal growth.Akshara consistently exhibits strong academic aptitude and a true passion for computer
+science, particularly in machine learning and artificial intelligence. Maintaining an excellent
+academic record and attendance, she actively participates in technical workshops, seminars,
+and demonstrates admirable curiosity and perseverance.</p>
+          <p>A highlight of her achievements is
+the successful publication of a research paper on “Brain Cancer Detection Systems Using
+Ai—A Testament” to her technical competence and dedication.
+Additionally, Akshara shines as both a team player and a leader, frequently collaborating with
+peers on group projects and helping guide fellow students with clarity and maturity.</p>
+          <p>She is
+highly responsible, disciplined, and balanced in approach, qualities that make her stand out
+among her peers.
+I recommend Akshara Srivastava without reservation and am certain she will excel in any
+future endeavour.</p>
         </div>
       </div>
     </div>

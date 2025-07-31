@@ -10,28 +10,28 @@ interface ContinueWatchingProps {
 
 const continueWatchingConfig = {
   recruiter: [
-    { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Music", imgSrc: "https://i.pinimg.com/736x/7b/15/07/7b1507056b5efc480cc90b76b6bd153d.jpg", link: "/music" },
+    { title: "Reading", imgSrc: "https://i.pinimg.com/736x/39/62/71/3962717eb5048d7f67e242fb2e262afa.jpg", link: "/reading" },
+    { title: "Blogs", imgSrc: "https://i.pinimg.com/736x/0e/e7/0b/0ee70b393deca697c5f961a021e766e9.jpg", link: "/blogs" },
+    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", link: "/contact-me" }
   ],
   developer: [
-    { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
-    { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Music", imgSrc: "https://i.pinimg.com/736x/7b/15/07/7b1507056b5efc480cc90b76b6bd153d.jpg", link: "/music" },
+    { title: "Reading", imgSrc: "https://i.pinimg.com/736x/39/62/71/3962717eb5048d7f67e242fb2e262afa.jpg", link: "/reading" },
+    { title: "Blogs", imgSrc: "https://i.pinimg.com/736x/0e/e7/0b/0ee70b393deca697c5f961a021e766e9.jpg", link: "/blogs" },
+    { title: "Certifications", imgSrc: "https://i.pinimg.com/1200x/85/5d/0e/855d0edc1c183fcc4e8ff19a97962000.jpg", link: "/certifications" },
+    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", link: "/contact-me" }
   ],
   stalker: [
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Reading", imgSrc: "https://i.pinimg.com/736x/39/62/71/3962717eb5048d7f67e242fb2e262afa.jpg", link: "/reading" },
+    { title: "Blogs", imgSrc: "https://i.pinimg.com/736x/0e/e7/0b/0ee70b393deca697c5f961a021e766e9.jpg", link: "/blogs" },
+    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", link: "/contact-me" }
   ],
   adventure: [
-    { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Music", imgSrc: "https://i.pinimg.com/736x/7b/15/07/7b1507056b5efc480cc90b76b6bd153d.jpg", link: "/music" },
+    { title: "Reading", imgSrc: "https://i.pinimg.com/736x/39/62/71/3962717eb5048d7f67e242fb2e262afa.jpg", link: "/reading" },
+    { title: "Certifications", imgSrc: "https://i.pinimg.com/1200x/85/5d/0e/855d0edc1c183fcc4e8ff19a97962000.jpg", link: "/certifications" },
+    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", link: "/contact-me" }
   ]
 };
 

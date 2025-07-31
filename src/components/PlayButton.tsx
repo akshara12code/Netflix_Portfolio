@@ -8,7 +8,7 @@ interface PlayButtonProps {
 
 const PlayButton: React.FC<PlayButtonProps> = ({ onClick, label = "Play" }) => {
   return (
-    <button className="play-button" onClick={onClick} type="button">
+    <button className="play-buttons" onClick={onClick} type="button">
       <div className="icon-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"

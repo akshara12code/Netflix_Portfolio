@@ -11,7 +11,7 @@
 
 .blogs-title {
   font-size: 2.5rem;
-  color: #4a90e2;
+  color: #df1818;
   font-weight: bold;
   margin-bottom: 1rem;
   animation: slideDown 1s ease-in-out forwards;
@@ -21,11 +21,12 @@
 
 .blogs-intro {
   font-size: 1.1rem;
-  color: white;
+  color: rgb(223, 35, 35);
   margin-bottom: 2rem;
   animation: fadeIn 1.5s ease-in-out forwards;
   transform: translateY(-30px);
   opacity: 0;
+  -webkit-animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .blogs-grid {
@@ -37,11 +38,11 @@
 }
 
 .blog-card {
-  background: #fff;
+  background: #060101;
   border-radius: 12px;
   padding: 1rem;
   width: 90%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(240, 3, 3, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   color: inherit;
   text-decoration: none;
@@ -55,12 +56,12 @@
 
 .blog-card:hover {
   transform: scale(1.5); /* Zoom-in effect */
-  box-shadow: 1rem 1rem 1rem rgba(8, 118, 242, 0.4); /* Blue shadow */
+  box-shadow: 1rem 1rem 1rem rgba(242, 8, 8, 0.4); /* Blue shadow */
 }
 
 .blog-icon {
   font-size: 2.5rem;
-  color: #4a90e2;
+  color: #f11010;
 }
 
 .animated-icon {
@@ -73,19 +74,19 @@
 
 .blog-title {
   font-size: 1.2rem;
-  color: #333;
+  color: #f7f7f7;
   margin-bottom: 0.3rem;
 }
 
 .blog-description {
   font-size: 0.95rem;
-  color: #666;
+  color: #aba0a0;
   margin-bottom: 0.5rem;
 }
 
 .blog-platform {
   font-size: 0.85rem;
-  color: #4a90e2;
+  color: #f31111;
 }
 
 /* Animations */
