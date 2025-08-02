@@ -11,7 +11,7 @@ const mockContactData: IContactMe = {
   title: "Front-End Developer & Machine Learning Enthusiast",
   summary: "Passionate about creating innovative solutions and building scalable applications. I love working with modern technologies and collaborating with teams to deliver exceptional user experiences.",
   companyUniversity: "Vellore Institute of Technology, Bhopal",
-  linkedinLink: "https://www.linkedin.com/in/akshara-srivastava",
+  linkedinLink: "https://www.linkedin.com/in/akshara-srivastava-3572052a6/",
   email: "akshara12082005@gmail.com",
   phoneNumber: "91+ 8488944819"
 };

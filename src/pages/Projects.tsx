@@ -64,77 +64,31 @@ const techIcons: { [key: string]: JSX.Element } = {
 // Mock projects data - replace with actual API call
 const mockProjectsData: Project[] = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with user authentication, product catalog, shopping cart, and payment integration. Features include real-time inventory management, order tracking, and admin dashboard.",
-    image: { url: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop" },
-    techUsed: "React, Node.js, Express.js, MongoDB, Redis, AWS, Docker"
+    title: "Brain-Cancer Detection System",
+    description: "A Brain-Cancer Detection System using a CNN image classification model leverages deep learning techniques to automatically identify and categorize brain tumor types from MRI images. The system preprocesses MRI scans using OpenCV for image enhancement, NumPy for numerical operations, and employs a TensorFlow/Keras-based Convolutional Neural Network to learn distinctive features of cancerous versus non-cancerous tissues.",
+    image: { url: "https://i.pinimg.com/736x/82/7a/28/827a285c96dd7a13f3f0257a427773af.jpg" },
+    techUsed: "Deep Learning, Mobile.net, VGG16, ResNet50, Flask,  HTML, CSS, JS "
   },
   {
-    title: "Task Management System",
-    description: "A collaborative task management application with real-time updates, team collaboration features, and project tracking. Includes drag-and-drop functionality, time tracking, and reporting.",
-    image: { url: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop" },
-    techUsed: "Next.js, TypeScript, PostgreSQL, GraphQL, Tailwind CSS, Vercel"
+    title: "Diet-Meal Recommendation System",
+    description: "A Diet Meal Recommendation System powered by AI utilizes advanced language models (such as GPT and LLaMA) to generate personalized meal plans based on user preferences, health goals, and dietary restrictions. The system features a user-friendly web interface built with React.js, a backend API powered by Node.js, and MongoDB for storing user profiles and meal data.",
+    image: { url: "https://i.pinimg.com/736x/08/cb/cf/08cbcf7193b9ed644d58dc57cf4149e6.jpg" },
+    techUsed: "LLMs, LangChain, Flask, HuggingFace, HTML, CSS, JS"
   },
   {
-    title: "Social Media Dashboard",
-    description: "A comprehensive social media analytics dashboard that aggregates data from multiple platforms. Features include real-time metrics, custom reports, and automated posting capabilities.",
-    image: { url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" },
-    techUsed: "React, Python, FastAPI, PostgreSQL, Redis, AWS Lambda, Material UI"
+    title: "PrepAi- Your personal AI Assistant",
+    description: "PrepAi – Your Personal AI Assistant is an intelligent digital companion powered by advanced language models (such as GPT and LLaMA) designed to help users with various everyday tasks. It features a sleek web interface built with React.js, a robust backend using Node.js, and leverages MongoDB to securely manage user data and assistant interactions.",
+    image: { url: "https://i.pinimg.com/736x/b0/34/51/b034516bdde2ae3d39c87010ea1d157c.jpg" },
+    techUsed: "React, FireBase, TypeScript, Vapi AI, Vercel, Next.Js"
   },
   {
-    title: "Learning Management System",
-    description: "An online learning platform with course creation tools, student progress tracking, and interactive assessments. Includes video streaming, discussion forums, and certification generation.",
-    image: { url: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop" },
-    techUsed: "Vue.js, Spring Boot, Java, MySQL, AWS S3, Docker, Kubernetes"
+    title: "Bizz-Your Movie Search Platform",
+    description: "Bizz – Your Movie Search Platform is a dynamic application designed to help users effortlessly discover and explore movies tailored to their interests. The platform features a modern web interface built with React.js, a backend powered by Node.js, and MongoDB for efficiently managing user profiles and movie metadata",
+    image: { url: "https://i.pinimg.com/736x/80/d2/c0/80d2c00f78a37a0c999652f483f618ce.jpg" },
+    techUsed: "AppWrite, Tmdb API, Next Js, React"
   },
-  {
-    title: "Real Estate Management",
-    description: "A property management system for real estate agents with listing management, client portal, and virtual tour integration. Features include property search, scheduling, and document management.",
-    image: { url: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=250&fit=crop" },
-    techUsed: "Angular, .NET Core, C#, SQL Server, Azure, Bootstrap"
-  },
-  {
-    title: "Healthcare Portal",
-    description: "A patient management system with appointment scheduling, medical records, and telemedicine capabilities. Includes prescription management, billing integration, and HIPAA compliance.",
-    image: { url: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=250&fit=crop" },
-    techUsed: "React, Node.js, MongoDB, AWS Cognito, Lambda, Material UI"
-  },
-  {
-    title: "Financial Analytics Tool",
-    description: "A comprehensive financial analytics platform with portfolio tracking, risk assessment, and automated reporting. Features include real-time market data, custom alerts, and investment recommendations.",
-    image: { url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" },
-    techUsed: "Python, Django, PostgreSQL, Redis, Docker, AWS ECS, Bootstrap"
-  },
-  {
-    title: "IoT Device Manager",
-    description: "An IoT device management platform with real-time monitoring, remote control capabilities, and data visualization. Includes device provisioning, firmware updates, and alert systems.",
-    image: { url: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=250&fit=crop" },
-    techUsed: "React, Node.js, InfluxDB, MQTT, Docker, Kubernetes, Grafana"
-  },
-  {
-    title: "Content Management System",
-    description: "A headless CMS with drag-and-drop page builder, multi-language support, and SEO optimization. Features include version control, workflow management, and API-first architecture.",
-    image: { url: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=400&h=250&fit=crop" },
-    techUsed: "Next.js, Strapi, PostgreSQL, AWS S3, Cloudfront, Tailwind CSS"
-  },
-  {
-    title: "Event Management Platform",
-    description: "A comprehensive event management solution with ticketing, attendee management, and live streaming capabilities. Includes payment processing, networking features, and analytics.",
-    image: { url: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=250&fit=crop" },
-    techUsed: "Vue.js, Ruby On Rails, PostgreSQL, Redis, Stripe API, AWS"
-  },
-  {
-    title: "Inventory Management System",
-    description: "A warehouse inventory management system with barcode scanning, automated reordering, and supplier integration. Features include real-time tracking, reporting, and mobile app support.",
-    image: { url: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=250&fit=crop" },
-    techUsed: "Angular, Spring Boot, MySQL, Apache Kafka, Docker, Jenkins"
-  },
-  {
-    title: "AI-Powered Chatbot",
-    description: "An intelligent customer service chatbot with natural language processing, sentiment analysis, and integration with CRM systems. Features include multi-language support and learning capabilities.",
-    image: { url: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=400&h=250&fit=crop" },
-    techUsed: "Python, TensorFlow, Flask, React, MongoDB, AWS Lambda, Docker"
-  }
+ 
+  
 ];
 
 const getProjects = async (): Promise<Project[]> => {
