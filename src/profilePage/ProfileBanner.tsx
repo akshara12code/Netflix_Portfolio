@@ -9,7 +9,7 @@ const mockProfileBannerData: ProfileBannerType = {
   headline: "Front-End Developer & Machine Learning Enthusiast",
   profileSummary: "I am a passionate Front-End Developer with a strong foundation in building interactive and user-friendly web applications. Alongside my development skills, I'm also an enthusiastic learner in the field of Machine Learning, constantly exploring ways to integrate smart technologies into modern web solutions.",
   resumeLink: { 
-    url: "https://drive.google.com/file/d/1VwI8t3Z7GCUg2Ovd_5dSiRRy8u6cYqb4/view?usp=sharing" 
+    url: "https://www.canva.com/design/DAGZW9pDhY8/KsaTn7UBRT_L8EvbPzSUsQ/view?utm_content=DAGZW9pDhY8&utm_campaign=share_your_design&utm_medium=link2&utm_source=shareyourdesignpanel" 
   },
   linkedinLink: "https://www.linkedin.com/in/akshara-srivastava-3572052a6/",
 };

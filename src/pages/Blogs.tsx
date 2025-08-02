@@ -8,21 +8,21 @@ const blogs = [
     platform: "Medium",
     icon: <FaMedium />,
     link: "https://drive.google.com/file/d/1LOoY0Ro3F_mhC2JMCoUJwhY4DLZaVjoL/view?usp=sharing",
-    description: "Learn tips to customize your Rails console for a better experience.",
+    description: "A celebration of the brilliant women who are shaping the future of technology. From pioneering software engineers and innovative entrepreneurs to leading researchers and visionary designers, women continue to break barriers and drive technological advancement across all industries.",
   },
   {
     title: "THE DIGITAL WORLD",
     platform: "Medium",
     icon: <FaMedium />,
     link: "https://drive.google.com/file/d/1C9vVnXLZFXaNlS6TxwdPR9HTdT1DZo5I/view?usp=sharing",
-    description: "An introductory guide to Docker fundamentals from my perspective.",
+    description: "An interconnected universe where technology shapes every aspect of our lives. From social media and cloud computing to artificial intelligence and virtual reality, explore how digital innovation transforms the way we work, communicate, learn, and experience the world around us.",
   },
   {
     title: "UNLOCKING AI: ADVANCING HUMANITY",
     platform: "Dev.to",
     icon: <FaDev />,
     link: "https://drive.google.com/file/d/1yCINtnJeEjcC7fTgnQwRd1rjmDFkNnH0/view?usp=sharing",
-    description: "A guide to using the Grape gem for API development in Ruby on Rails.",
+    description: "Exploring how artificial intelligence is revolutionizing healthcare, education, scientific research, and social progress. From diagnosing diseases faster than ever before to personalizing learning experiences and solving complex global challenges, AI is becoming humanity's most powerful tool for creating a better future for all.",
   },
 ];
 
