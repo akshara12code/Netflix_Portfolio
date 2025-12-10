@@ -70,6 +70,12 @@ const mockProjectsData: Project[] = [
     techUsed: "Deep Learning, Mobile.net, VGG16, ResNet50, Flask,  HTML, CSS, JS "
   },
   {
+    title: "Audio-Text-Translation",
+    description: "An Audio-Text-Translation application that converts spoken language into written text and translates it into multiple target languages. The system utilizes advanced speech recognition models (such as Whisper) to transcribe audio input into text accurately. It then employs powerful language translation models (like GPT or other transformer-based models) to translate the transcribed text into the desired languages, providing users with seamless multilingual communication capabilities.",
+    image: { url: "https://private-user-images.githubusercontent.com/154623856/524732029-ad73aa97-374a-4803-b5c4-a500aac97221.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUzNjI2NzgsIm5iZiI6MTc2NTM2MjM3OCwicGF0aCI6Ii8xNTQ2MjM4NTYvNTI0NzMyMDI5LWFkNzNhYTk3LTM3NGEtNDgwMy1iNWM0LWE1MDBhYWM5NzIyMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIxMFQxMDI2MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05M2Q4NjhjZmM0YzA0NThkYWNmNmFjNmYxM2YwZDFjOTgyMzFlMzM4NzgzNTVjZDg3MjNjOWFjNzhhNzA4ZjM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.xMPBnIbTxDV7W5rPACS8ZpkWmKk23eL-6A-ZernyyWM" },
+    techUsed: "Deep Learning, GenAI, Hugging Face, Flask,  HTML, CSS, JS "
+  },
+  {
     title: "Diet-Meal Recommendation System",
     description: "A Diet Meal Recommendation System powered by AI utilizes advanced language models (such as GPT and LLaMA) to generate personalized meal plans based on user preferences, health goals, and dietary restrictions. The system features a user-friendly web interface built with React.js, a backend API powered by Node.js, and MongoDB for storing user profiles and meal data.",
     image: { url: "https://i.pinimg.com/736x/08/cb/cf/08cbcf7193b9ed644d58dc57cf4149e6.jpg" },

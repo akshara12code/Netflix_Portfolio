@@ -59,6 +59,13 @@ const mockCertifications: Certification[] = [
     link: "https://drive.google.com/file/d/156Fq1qRL-gyFIavc-fxPYNnRDrzJgPnq/view?usp=sharing",
     iconName: "coursera"
   },
+   {
+    title: "Applied Machine Learning in Python",
+    issuer: "University of Michigan",
+    issuedDate: "December 6, 2025",
+    link: "https://www.coursera.org/account/accomplishments/verify/FY5GD3DZRHY6",
+    iconName: "coursera"
+  },
   {
     title: "Postman API Fundamentals Student Expert ",
     issuer: "Postman",

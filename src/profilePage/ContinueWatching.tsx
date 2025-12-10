@@ -11,27 +11,27 @@ interface ContinueWatchingProps {
 const continueWatchingConfig = {
   recruiter: [
     { title: "Music", imgSrc: "https://i.pinimg.com/736x/7b/15/07/7b1507056b5efc480cc90b76b6bd153d.jpg", link: "/music" },
-    { title: "Reading", imgSrc: "https://i.pinimg.com/736x/39/62/71/3962717eb5048d7f67e242fb2e262afa.jpg", link: "/reading" },
-    { title: "Blogs", imgSrc: "https://i.pinimg.com/736x/0e/e7/0b/0ee70b393deca697c5f961a021e766e9.jpg", link: "/blogs" },
-    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", link: "/contact-me" }
+    { title: "Reading", imgSrc: "https://i0.wp.com/wearerestless.org/wp-content/uploads/2021/02/Reading-scaled.jpg?resize=1155%2C770&ssl=1", link: "/reading" },
+    { title: "Blogs", imgSrc: "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/06/How_To_Start_A_Blog_-_article_image.jpg", link: "/blogs" },
+    { title: "Contact Me", imgSrc: "https://www.shutterstock.com/image-vector/handshake-hands-business-suit-come-600nw-2337895625.jpg", link: "/contact-me" }
   ],
   developer: [
     { title: "Music", imgSrc: "https://i.pinimg.com/736x/7b/15/07/7b1507056b5efc480cc90b76b6bd153d.jpg", link: "/music" },
-    { title: "Reading", imgSrc: "https://i.pinimg.com/736x/39/62/71/3962717eb5048d7f67e242fb2e262afa.jpg", link: "/reading" },
-    { title: "Blogs", imgSrc: "https://i.pinimg.com/736x/0e/e7/0b/0ee70b393deca697c5f961a021e766e9.jpg", link: "/blogs" },
-    { title: "Certifications", imgSrc: "https://i.pinimg.com/1200x/85/5d/0e/855d0edc1c183fcc4e8ff19a97962000.jpg", link: "/certifications" },
-    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", link: "/contact-me" }
+    { title: "Reading", imgSrc: "https://i0.wp.com/wearerestless.org/wp-content/uploads/2021/02/Reading-scaled.jpg?resize=1155%2C770&ssl=1", link: "/reading" },
+    { title: "Blogs", imgSrc: "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/06/How_To_Start_A_Blog_-_article_image.jpg", link: "/blogs" },
+    { title: "Certifications", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNIZtLblPcZGg3rhCBLqi7KNNvg7ayychRzw&s", link: "/certifications" },
+    { title: "Contact Me", imgSrc: "https://www.shutterstock.com/image-vector/handshake-hands-business-suit-come-600nw-2337895625.jpg", link: "/contact-me" }
   ],
   stalker: [
-    { title: "Reading", imgSrc: "https://i.pinimg.com/736x/39/62/71/3962717eb5048d7f67e242fb2e262afa.jpg", link: "/reading" },
-    { title: "Blogs", imgSrc: "https://i.pinimg.com/736x/0e/e7/0b/0ee70b393deca697c5f961a021e766e9.jpg", link: "/blogs" },
-    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", link: "/contact-me" }
+    { title: "Reading", imgSrc: "https://i0.wp.com/wearerestless.org/wp-content/uploads/2021/02/Reading-scaled.jpg?resize=1155%2C770&ssl=1", link: "/reading" },
+    { title: "Blogs", imgSrc: "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/06/How_To_Start_A_Blog_-_article_image.jpg", link: "/blogs" },
+    { title: "Contact Me", imgSrc: "https://www.shutterstock.com/image-vector/handshake-hands-business-suit-come-600nw-2337895625.jpg", link: "/contact-me" }
   ],
   adventure: [
     { title: "Music", imgSrc: "https://i.pinimg.com/736x/7b/15/07/7b1507056b5efc480cc90b76b6bd153d.jpg", link: "/music" },
-    { title: "Reading", imgSrc: "https://i.pinimg.com/736x/39/62/71/3962717eb5048d7f67e242fb2e262afa.jpg", link: "/reading" },
-    { title: "Certifications", imgSrc: "https://i.pinimg.com/1200x/85/5d/0e/855d0edc1c183fcc4e8ff19a97962000.jpg", link: "/certifications" },
-    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", link: "/contact-me" }
+    { title: "Reading", imgSrc: "https://i0.wp.com/wearerestless.org/wp-content/uploads/2021/02/Reading-scaled.jpg?resize=1155%2C770&ssl=1", link: "/reading" },
+    { title: "Certifications", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNIZtLblPcZGg3rhCBLqi7KNNvg7ayychRzw&s", link: "/certifications" },
+    { title: "Contact Me", imgSrc: "https://www.shutterstock.com/image-vector/handshake-hands-business-suit-come-600nw-2337895625.jpg", link: "/contact-me" }
   ]
 };
 

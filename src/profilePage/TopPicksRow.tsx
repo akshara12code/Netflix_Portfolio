@@ -12,34 +12,34 @@ interface TopPicksRowProps {
 const topPicksConfig = {
   recruiter: [
     // { title: "Work Permit", imgSrc: "https://picsum.photos/seed/workpermit/250/200", icon: <FaPassport />, route: "/work-permit" },
-    { title: "Skills", imgSrc: "https://i.pinimg.com/736x/e0/bd/f4/e0bdf43169f365cc72cf86526cbdc650.jpg", icon: <FaCode />, route: "/skills" },
-    { title: "Experience", imgSrc: "https://i.pinimg.com/736x/0e/7b/9c/0e7b9c140b021b6984a354b29f1fb1e8.jpg", icon: <FaBriefcase />, route: "/work-experience" },
-    { title: "Certifications", imgSrc: "https://i.pinimg.com/1200x/85/5d/0e/855d0edc1c183fcc4e8ff19a97962000.jpg", icon: <FaCertificate />, route: "/certifications" },
+    { title: "Skills", imgSrc: "https://imageio.forbes.com/specials-images/imageserve/630317507c39bc12ccfa8c6c/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds", icon: <FaCode />, route: "/skills" },
+    { title: "Experience", imgSrc: "https://static1.squarespace.com/static/51a615dbe4b0643b1caad822/t/5e3d90a44e4fb2019c98c11e/1581093060738/customer+experience.jpg?format=1500w", icon: <FaBriefcase />, route: "/work-experience" },
+    { title: "Certifications", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNIZtLblPcZGg3rhCBLqi7KNNvg7ayychRzw&s", icon: <FaCertificate />, route: "/certifications" },
     { title: "Recommendations", imgSrc: "https://i.pinimg.com/736x/a8/c1/8b/a8c18bc5dc8619eba15e30092c0dc20c.jpg", icon: <FaHandsHelping />, route: "/recommendations" },
-    { title: "Projects", imgSrc: "https://i.pinimg.com/736x/9b/14/94/9b1494a48c1e0d8df0886ad879f769de.jpg", icon: <FaProjectDiagram />, route: "/projects" },
-    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", icon: <FaEnvelope />, route: "/contact-me" }
+    { title: "Projects", imgSrc: "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg", icon: <FaProjectDiagram />, route: "/projects" },
+    { title: "Contact Me", imgSrc: "https://www.shutterstock.com/image-vector/handshake-hands-business-suit-come-600nw-2337895625.jpg", icon: <FaEnvelope />, route: "/contact-me" }
   ],
   developer: [
-    { title: "Skills", imgSrc: "https://i.pinimg.com/736x/e0/bd/f4/e0bdf43169f365cc72cf86526cbdc650.jpg", route: "/skills", icon: <FaCode /> },
-    { title: "Projects", imgSrc: "https://i.pinimg.com/736x/9b/14/94/9b1494a48c1e0d8df0886ad879f769de.jpg", route: "/projects", icon: <FaProjectDiagram /> },
-    { title: "Certifications", imgSrc: "https://i.pinimg.com/1200x/85/5d/0e/855d0edc1c183fcc4e8ff19a97962000.jpg", route: "/certifications", icon: <FaCertificate /> },
-    { title: "Experience", imgSrc: "https://i.pinimg.com/736x/0e/7b/9c/0e7b9c140b021b6984a354b29f1fb1e8.jpg", route: "/work-experience", icon: <FaBriefcase /> },
+    { title: "Skills", imgSrc: "https://imageio.forbes.com/specials-images/imageserve/630317507c39bc12ccfa8c6c/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds", route: "/skills", icon: <FaCode /> },
+    { title: "Projects", imgSrc: "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg", route: "/projects", icon: <FaProjectDiagram /> },
+    { title: "Certifications", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNIZtLblPcZGg3rhCBLqi7KNNvg7ayychRzw&s", route: "/certifications", icon: <FaCertificate /> },
+    { title: "Experience", imgSrc: "https://static1.squarespace.com/static/51a615dbe4b0643b1caad822/t/5e3d90a44e4fb2019c98c11e/1581093060738/customer+experience.jpg?format=1500w", route: "/work-experience", icon: <FaBriefcase /> },
     { title: "Recommendations", imgSrc: "https://i.pinimg.com/736x/a8/c1/8b/a8c18bc5dc8619eba15e30092c0dc20c.jpg", route: "/recommendations", icon: <FaHandsHelping /> },
-    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", route: "/contact-me", icon: <FaEnvelope /> }
+    { title: "Contact Me", imgSrc: "https://www.shutterstock.com/image-vector/handshake-hands-business-suit-come-600nw-2337895625.jpg", route: "/contact-me", icon: <FaEnvelope /> }
   ],
   stalker: [
     { title: "Recommendations", imgSrc: "https://i.pinimg.com/736x/a8/c1/8b/a8c18bc5dc8619eba15e30092c0dc20c.jpg", route: "/recommendations", icon: <FaHandsHelping /> },
-    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", route: "/contact-me", icon: <FaEnvelope /> },
-    { title: "Projects", imgSrc: "https://i.pinimg.com/736x/9b/14/94/9b1494a48c1e0d8df0886ad879f769de.jpg", route: "/projects", icon: <FaProjectDiagram /> },
-    { title: "Experience", imgSrc: "https://i.pinimg.com/736x/0e/7b/9c/0e7b9c140b021b6984a354b29f1fb1e8.jpg", route: "/work-experience", icon: <FaBriefcase /> },
-    { title: "Certifications", imgSrc: "https://i.pinimg.com/1200x/85/5d/0e/855d0edc1c183fcc4e8ff19a97962000.jpg", route: "/certifications", icon: <FaCertificate /> },
+    { title: "Contact Me", imgSrc: "https://www.shutterstock.com/image-vector/handshake-hands-business-suit-come-600nw-2337895625.jpg", route: "/contact-me", icon: <FaEnvelope /> },
+    { title: "Projects", imgSrc: "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg", route: "/projects", icon: <FaProjectDiagram /> },
+    { title: "Experience", imgSrc: "https://static1.squarespace.com/static/51a615dbe4b0643b1caad822/t/5e3d90a44e4fb2019c98c11e/1581093060738/customer+experience.jpg?format=1500w", route: "/work-experience", icon: <FaBriefcase /> },
+    { title: "Certifications", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNIZtLblPcZGg3rhCBLqi7KNNvg7ayychRzw&s", route: "/certifications", icon: <FaCertificate /> },
   ],
   adventure: [
     { title: "Music", imgSrc: "https://i.pinimg.com/736x/7b/15/07/7b1507056b5efc480cc90b76b6bd153d.jpg", route: "/music", icon: <FaMusic /> },
-    { title: "Projects", imgSrc: "https://i.pinimg.com/736x/9b/14/94/9b1494a48c1e0d8df0886ad879f769de.jpg", route: "/projects", icon: <FaProjectDiagram /> },
-    { title: "Reading", imgSrc: "https://i.pinimg.com/736x/39/62/71/3962717eb5048d7f67e242fb2e262afa.jpg", route: "/reading", icon: <FaBook /> },
-    { title: "Contact Me", imgSrc: "https://i.pinimg.com/736x/f9/e9/4f/f9e94fa5dfbea15f98ff6da5da7ed453.jpg", route: "/contact-me", icon: <FaEnvelope /> },
-    { title: "Certifications", imgSrc: "https://i.pinimg.com/1200x/85/5d/0e/855d0edc1c183fcc4e8ff19a97962000.jpg", route: "/certifications", icon: <FaCertificate /> }
+    { title: "Projects", imgSrc: "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg", route: "/projects", icon: <FaProjectDiagram /> },
+    { title: "Reading", imgSrc: "https://i0.wp.com/wearerestless.org/wp-content/uploads/2021/02/Reading-scaled.jpg?resize=1155%2C770&ssl=1", route: "/reading", icon: <FaBook /> },
+    { title: "Contact Me", imgSrc: "https://www.shutterstock.com/image-vector/handshake-hands-business-suit-come-600nw-2337895625.jpg", route: "/contact-me", icon: <FaEnvelope /> },
+    { title: "Certifications", imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNIZtLblPcZGg3rhCBLqi7KNNvg7ayychRzw&s", route: "/certifications", icon: <FaCertificate /> }
   ]
 };
 
